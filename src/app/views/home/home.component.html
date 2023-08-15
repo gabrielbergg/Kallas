@@ -1,0 +1,12 @@
+<mat-toolbar>
+    <mat-toolbar-row class="bar">
+      <a routerLink="/#text" href="#text"><span class="item-bar" (click)="smoothScroll('text')">Quem Somos</span></a>
+      <a routerLink="/#photos" href="#photos"><span class="item-bar" (click)="smoothScroll('photos')">Nosso Espaço</span></a>
+      <a routerLink="/#contato" href="#contato"><span class="item-bar" (click)="smoothScroll('contato')">Entre em Contato</span></a>
+    </mat-toolbar-row>
+    
+</mat-toolbar>
+  
+<app-lives></app-lives>
+<app-about-us></app-about-us>
+<app-contato #contatoSection></app-contato>
